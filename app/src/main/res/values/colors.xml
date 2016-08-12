@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme colors -->
+    <color name="colorPrimary">@color/primary_blue_light</color>
+    <color name="colorPrimaryDark">@color/primary_blue_dark</color>
+    <color name="colorAccent">@color/primary_gray</color>
+    <!-- CapTech Colors -->
+    <!-- Primary Colors -->
+    <!-- Primary Blue (Dark) -->
+    <color name="primary_blue_dark">#FF005DB9</color>
+    <!-- Primary Blue (Light) -->
+    <color name="primary_blue_light">#FF00A1E0</color>
+    <!-- Primary Gray -->
+    <color name="primary_gray">#FF54565B</color>
+    <!-- Secondary Colors -->
+    <!-- Secondary Blue -->
+    <color name="secondary_blue">#FF00A1E0</color>
+    <!-- Secondary Red -->
+    <color name="secondary_red">#FFF63440</color>
+    <!-- Secondary Teal -->
+    <color name="secondary_teal">#FF00A19C</color>
+    <!-- Secondary Green -->
+    <color name="secondary_green">#FF76BD22</color>
+    <!-- Secondary Orange -->
+    <color name="secondary_orange">#FFFF681D</color>
+    <!-- Secondary Purple -->
+    <color name="secondary_purple">#FF773DBE</color>
+    <!-- Accent Colors -->
+    <!-- Accent Blue (Dark) -->
+    <color name="accent_blue_dark">#FF004A88</color>
+    <!-- Accent Blue (Light) -->
+    <color name="accent_blue_light">#FF005DB9</color>
+    <!-- Accent Red (Dark) -->
+    <color name="accent_red_dark">#FFD0343A</color>
+    <!-- Accent Red (light) -->
+    <color name="accent_red_light">#FFFA364A</color>
+    <!-- Accent Teal (Dark) -->
+    <color name="accent_teal_dark">#FF00827A</color>
+    <!-- Accent Teal (Light) -->
+    <color name="accent_teal_light">#FF00BCB5</color>
+    <!-- Accent Green (Dark) -->
+    <color name="accent_green_dark">#FF62A70F</color>
+    <!-- Accent Green (Light) -->
+    <color name="accent_green_light">#FFA3D55F</color>
+    <!-- Accent Orange (Dark) -->
+    <color name="accent_orange_dark">#FFE65400</color>
+    <!-- Accent Orange (Light) -->
+    <color name="accent_orange_light">#FFF47F42</color>
+    <!-- Accent Purple (Dark) -->
+    <color name="accent_purple_dark">#FF61279E</color>
+    <!-- Accent Purple (Light) -->
+    <color name="accent_purple_light">#FF9264CD</color>
+    <!-- Other colors -->
+    <!-- Blue 206 (Darkest) rgba (7, 77, 129, 1) -->
+    <color name="blue_206">#FF074D81</color>
+    <!-- Blue 204 (Medium) rgba (1, 100, 169, 1) -->
+    <color name="blue_204">#FF0164A8</color>
+    <!-- Blue 196 (Light) rgba (1, 161, 221, 1) -->
+    <color name="blue_196">#FF01A1DD</color>
+    <!-- Blue 196 (Light) rgba (1, 161, 221, 1) -->
+    <color name="teal_196">#FF01A1DD</color>
+    <!-- END CapTech Colors -->
+    <color name="core_value_color_trusted_advisor">@color/secondary_orange</color>
+    <color name="core_value_color_intellectual_curiosity">@color/secondary_purple</color>
+    <color name="core_value_color_flexibility">@color/secondary_red</color>
+    <color name="core_value_color_enthusiasm">@color/secondary_green</color>
+    <color name="core_value_color_servant_leadership">@color/secondary_blue</color>
+    <!-- App Colors -->
+    <!-- END App Colors -->
+    <!-- ••••••••••••••••••••••••••••••• -->
+    <!-- Useful opacity percentage chart -->
+    <!-- ••••••••••••••••••••••••••••••• -->
+    <!-- 100% — FF -->
+    <!-- 95% — F2 -->
+    <!-- 90% — E6 -->
+    <!-- 85% — D9 -->
+    <!-- 80% — CC -->
+    <!-- 75% — BF -->
+    <!-- 70% — B3 -->
+    <!-- 65% — A6 -->
+    <!-- 60% — 99 -->
+    <!-- 55% — 8C -->
+    <!-- 50% — 80 -->
+    <!-- 45% — 73 -->
+    <!-- 40% — 66 -->
+    <!-- 35% — 59 -->
+    <!-- 30% — 4D -->
+    <!-- 25% — 40 -->
+    <!-- 20% — 33 -->
+    <!-- 15% — 26 -->
+    <!-- 10% — 1A -->
+    <!-- 5% — 0D -->
+    <!-- 0% — 00 -->
+</resources>

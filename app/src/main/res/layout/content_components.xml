@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/content_fonts"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.captechventures.examples.espresso_recording.ComponentsActivity"
+    tools:showIn="@layout/activity_components">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header1"
+            android:text="Heading - Header 1"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header2"
+            android:text="Heading - Header 2"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header3"
+            android:text="Heading - Header 2"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header4"
+            android:text="Heading - Header 2"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header5"
+            android:text="Heading - Header 2"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Body"
+            android:text="@string/example_text_body"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Body.Large"
+            android:layout_marginTop="16dp"
+            android:text="@string/example_text_body_large"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableButton
+            style="@style/Button.Primary"
+            android:layout_marginTop="16dp"
+            android:text="Button - Primary"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableButton
+            style="@style/Button.Secondary"
+            android:layout_marginTop="16dp"
+            android:text="Button - Secondary"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableCheckBox
+            style="@style/Component.Checkbox"
+            android:layout_marginTop="16dp"
+            android:text="Checkbox - Unchecked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableCheckBox
+            style="@style/Component.Checkbox"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:text="Checkbox - Checked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableSwitch
+            style="@style/Component.Switch"
+            android:layout_marginTop="16dp"
+            android:text="Switch - Unchecked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableSwitch
+            style="@style/Component.Switch"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:text="Switch - Checked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableToggleButton
+            style="@style/Component.ToggleButton"
+            android:layout_marginTop="16dp"
+            android:text="ToggleButton - Unchecked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableToggleButton
+            style="@style/Component.ToggleButton"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:text="ToggleButton - Checked"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableEditText
+            style="@style/Component.EditText"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:hint="Hint Text"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableEditText
+            style="@style/Component.EditText"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:text="Content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/core_value_color_intellectual_curiosity"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+        android:id="@+id/tv_core_values_title"
+        style="@style/Text.Header.Header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/core_value_intellectual_curiosity"
+        android:textColor="@android:color/white"/>
+
+    <com.captechventures.examples.espresso_recording.ui.font.FontableToggleButton
+        android:id="@+id/bt_toggle_content"
+        style="@style/Component.ToggleButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textOff="Show More"
+        android:textOn="Hide"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_core_values_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.75"
+            android:src="@drawable/ic_core_value_intellectual_curiosity"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            android:id="@+id/tv_core_values_description"
+            style="@style/Text.Body.Large"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/core_value_description_intellectual_curiosity"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+</LinearLayout>

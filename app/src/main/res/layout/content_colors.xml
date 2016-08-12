@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.captechventures.examples.espresso_recording.ColorsActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_color_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableEditText
+            android:id="@+id/et_color_edit_text"
+            style="@style/Component.EditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Paste Your Color Here"/>
+
+        <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+            style="@style/Text.Header.Header3"
+            android:layout_marginLeft="16dp"
+            android:text="Secondary Colors"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_blue"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_blue"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_blue"/>
+
+                <View
+                    android:id="@+id/v_accent_blue_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_blue"
+                    android:background="@color/accent_blue_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_blue_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_blue_dark"
+                    android:background="@color/accent_blue_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_blue_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_blue_light"
+                    android:text="Secondary Blue"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_orange"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_orange"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_orange"/>
+
+                <View
+                    android:id="@+id/v_accent_orange_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_orange"
+                    android:background="@color/accent_orange_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_orange_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_orange_dark"
+                    android:background="@color/accent_orange_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_orange_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_orange_light"
+                    android:text="Secondary Orange"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_red"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_red"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_red"/>
+
+                <View
+                    android:id="@+id/v_accent_red_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_red"
+                    android:background="@color/accent_red_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_red_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_red_dark"
+                    android:background="@color/accent_red_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_red_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_red_light"
+                    android:text="Secondary Red"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_purple"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_purple"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_purple"/>
+
+                <View
+                    android:id="@+id/v_accent_purple_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_purple"
+                    android:background="@color/accent_purple_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_purple_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_purple_dark"
+                    android:background="@color/accent_purple_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_purple_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_purple_light"
+                    android:text="Secondary Purple"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_teal"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_teal"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_teal"/>
+
+                <View
+                    android:id="@+id/v_accent_teal_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_teal"
+                    android:background="@color/accent_teal_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_teal_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_teal_dark"
+                    android:background="@color/accent_teal_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_teal_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_teal_light"
+                    android:text="Secondary Teal"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_secondary_green"
+            style="@style/View.CardView.ColorView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/v_secondary_green"
+                    style="@style/View.ColorView"
+                    android:background="@color/secondary_green"/>
+
+                <View
+                    android:id="@+id/v_accent_green_dark"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_secondary_green"
+                    android:background="@color/accent_green_dark"/>
+
+                <View
+                    android:id="@+id/v_accent_green_light"
+                    style="@style/View.ColorView"
+                    android:layout_toRightOf="@+id/v_accent_green_dark"
+                    android:background="@color/accent_green_light"/>
+
+                <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+                    android:id="@+id/v_secondary_green_title"
+                    style="@style/Text.ColorView.Title"
+                    android:layout_toRightOf="@+id/v_accent_green_light"
+                    android:text="Secondary Teal"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

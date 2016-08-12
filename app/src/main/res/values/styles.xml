@@ -1,0 +1,160 @@
+<resources>
+    <!-- Custom stylables -->
+    <declare-styleable name="CustomFont">
+        <attr name="font" format="string"/>
+    </declare-styleable>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="View"></style>
+
+    <style name="View.CardView" parent="View"></style>
+
+    <style name="View.CardView.ColorView" parent="View.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="View.ColorView" parent="View">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Text">
+        <item name="font">@string/font_proximanova_reg</item>
+    </style>
+
+    <style name="Text.ColorView" parent="Text"></style>
+
+    <style name="Text.ColorView.Title" parent="Text.ColorView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Text.Header" parent="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="font">@string/font_adelle_reg</item>
+    </style>
+
+    <style name="Text.Header.Header1" parent="Text.Header">
+        <item name="android:textSize">24sp</item>
+        <item name="font">@string/font_adelle_bold</item>
+    </style>
+
+    <style name="Text.Header.Header2" parent="Text.Header">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Header.Header3" parent="Text.Header">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Header.Header4" parent="Text.Header">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Header.Header5" parent="Text.Header">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Body" parent="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="font">@string/font_proximanova_reg</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Body.Large" parent="Text.Body">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="font">@string/font_proximanova_medium</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingTop">22dp</item>
+        <item name="android:paddingBottom">22dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Button">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+    <style name="Component">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="font">@string/font_proximanova_reg</item>
+    </style>
+
+    <style name="Component.Checkbox" parent="Component">
+        <item name="buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="Component.Switch" parent="Component">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Component.ToggleButton" parent="Component">
+    </style>
+
+    <style name="Component.EditText" parent="Component">
+        <item name="android:minWidth">120dp</item>
+        <item name="android:background">@drawable/bg_edit_text_selector</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="Image"></style>
+
+    <style name="Image.Logo" parent="Image">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

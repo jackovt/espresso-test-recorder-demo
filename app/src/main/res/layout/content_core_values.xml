@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_core_values"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.captechventures.examples.espresso_recording.core_values.CoreValuesActivity"
+    tools:showIn="@layout/activity_core_values">
+
+    <com.captechventures.examples.espresso_recording.ui.font.FontableTextView
+        android:id="@+id/tv_label_sp_core_values"
+        style="@style/Text.Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sp_core_values"
+        android:layout_margin="16dp"
+        android:labelFor="@+id/sp_core_values"
+        android:text="Core Value:"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_core_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_toRightOf="@+id/tv_label_sp_core_values"
+        android:entries="@array/array_core_values"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_core_values"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sp_core_values"/>
+</RelativeLayout>
