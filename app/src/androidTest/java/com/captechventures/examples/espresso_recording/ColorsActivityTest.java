@@ -84,13 +84,6 @@ public class ColorsActivityTest {
                 allOf(withId(R.id.fab), isDisplayed()));
         floatingActionButton.perform(click());
 
-        try {
-            Thread.sleep(1000);
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         ViewInteraction appCompatButton2 = onView(
                 allOf(withId(R.id.snackbar_action), withText("Copy Hex Value"), isDisplayed()));
         appCompatButton2.perform(click());
